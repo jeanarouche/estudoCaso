@@ -175,7 +175,6 @@ def runAlgorithm(train,test,m,est_algorithm,aval_algorithm):
     labelTest = []
     paramClass = []
     lenTest = len(test['Labels'])
-    #lenTest = 23
     for i in range(0,lenTest):    
          paramTest = []
          aux = test['Params'][i] 
